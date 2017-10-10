@@ -4,7 +4,7 @@ var rev        = require('gulp-rev-append');
 
 // TASKS FOR LIVE RELOADING ==========
 gulp.task('css', function() {
-  gulp.src('css/*.css').pipe(livereload());
+  gulp.src('*.css').pipe(livereload());
 });
 
 gulp.task('js', function() {
